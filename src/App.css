@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.incrimenter{
+  width: 100px;
+  height: 100px;
+  border-radius:100%;
+  position: absolute;
+  top:50%;
+  left: 46%;
+
+  background-color: transparent;
+
+  border: none;
+
+
+}
+
+.number{
+  position: absolute;
+  top: 36%;
+  left: 52%;
+  font-size: 30px;
+
+}
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+img{
+  width: 100%;
+}
+.resit{
+  width: 5px;
+  height: 30px;
+  position: absolute;
+  top:45%;
+  left: 52%;
+
+  border-radius:100%;
+
+  background-color: transparent;
+  border: none;
+
+
+
+}
+.resit:hover{
+  cursor: pointer;
+  border: none;
+  background-color:  transparent;
+}
+.resit:focus{
+  outline: none;
+}
+.incrimenter:focus{
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .incrimenter {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 40%;
+    cursor: pointer;
+    border: none;
+
+
+  
+  }
+  .number {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+
+    
+  }
+  .resit {
+    width: 1.5rem;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 8px;
+    background-color: transparent;
+    border: none;
+
+  }
+}
